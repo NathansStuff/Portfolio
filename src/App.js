@@ -1,10 +1,16 @@
 import './App.css';
-import AvatarComponent from './components/avatar-component/avatar-component.component';
-import Hud from './components/hud/hud.component';
+import { Switch, Route } from 'react-router-dom';
+import HomePage from './pages/homepage/homepage.component'
+import About from './pages/about/about.component'
 
 function App() {
   return (
-   <Hud/>
+    <div>
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/about' component={HomePage} />
+      </Switch>
+    </div>
   );
 }
 
