@@ -1,0 +1,42 @@
+$about-width: 50%;
+$images: 50px;
+
+.about {
+    height: 0;
+}
+
+.about:after {
+    width: $about-width;
+    content: '';
+    height: 50px;
+    border-bottom: 5px solid red;
+    position: absolute;
+    border-radius: 2px;
+}
+
+.sub-header-row {
+    height: 20px;
+    display: flex;
+    
+    img {
+        width: $images;
+        height: $images;
+        padding-right: 10px;
+        display: flex;
+    }
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-header-item {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    
+    p {
+        margin-top: 0;
+    }
+}

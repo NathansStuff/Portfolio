@@ -1,10 +1,12 @@
 import './App.css';
 import AvatarComponent from './components/avatar-component/avatar-component.component';
+import AboutPage from './pages/about/about.component'
 
 function App() {
   return (
-    <div>
+    <div className='avatar-info-wrapper'>
       <AvatarComponent />
+      <AboutPage />
     </div>
   );
 }
