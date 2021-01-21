@@ -1,10 +1,7 @@
-import React from 'react';
-import './homepage.styles.scss';
-import Hud from '../../components/hud/hud.component';
+import HudClass from '../../components/hud/hudclass.component';
 
-const HomePage = props => {
-  console.log(props);
-  return <Hud />;
-};
+const HomePage = (props) => (
+    new HudClass(props)
+);
 
 export default HomePage;
