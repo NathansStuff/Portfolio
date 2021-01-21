@@ -1,7 +1,7 @@
-import HudClass from '../../components/hud/hudclass.component';
+import Hud from '../../components/hud/hud.component';
 
 const About = (props) => (
-    new HudClass(props)
+    new Hud(props)
 );
 
 export default About;
