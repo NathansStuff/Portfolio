@@ -1,11 +1,10 @@
 import './App.css';
-import MainComponent from './components/main-component/main-component.component'
+import AvatarComponent from './components/avatar-component/avatar-component.component';
 
 function App() {
   return (
     <div>
-      Helloworld
-      <MainComponent />
+      <AvatarComponent />
     </div>
   );
 }
