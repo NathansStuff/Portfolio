@@ -1,5 +1,5 @@
 import Hud from '../../components/hud/hud.component';
 
-const About = ({ history }) => <Hud />;
+const About = ({ props }) => Hud(props);
 
 export default About;
