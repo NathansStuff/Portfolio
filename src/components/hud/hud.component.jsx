@@ -21,15 +21,8 @@ class HudClass extends React.Component {
           <HudPages />
           <div className='about-wrapper'>
             <div className='sub-headers'>
-              <div className='sub-header-row'>
                 <HudSubheaderDirectory props={this.page} />
-              </div>
-              <div className='custom-line'></div>
             </div>
-          </div>
-          <div className='submenu-item'>
-            <div className='submenu-item-left'>Name: Nathan</div>
-            <div className='submenu-item-right'>Descripton of name</div>
           </div>
         </div>
       </div>
