@@ -7,8 +7,7 @@ import HudSubheaderDirectory from './hud-subheaders.component';
 class HudClass extends React.Component {
   constructor(props) {
     super(props);
-    this.page = props.location.pathname.substring(1); // returns '/about'
-    console.log(`current page: ${this.page}`);
+    this.page = props.location.pathname.substring(1); // returns 'about'
   }
 
   render(props) {

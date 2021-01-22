@@ -11,7 +11,6 @@ function HubSubheaders(links) {
   const page = links.props ? links.props : 'home';
   const data = HEADER_DATA;
   const object = data.pages[`${page}_data`];
-  console.log(Object.keys(object[0]));
   DeterminePage(links);
   return (
     <div>
