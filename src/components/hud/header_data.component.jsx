@@ -21,26 +21,9 @@ const HEADER_DATA = {
         image: linkedin,
       },
     ],
-    about_data: [
-      {
-        name: 'Nathan',
-        age: 28,
-      },
-    ],
-    projects: [
-      {
-        title: 'Terminal',
-        key: 1,
-        image: twitter,
-      },
-    ],
-    home: [
-      {
-        title: 'HOME',
-        key: 1,
-        image: twitter,
-      },
-    ],
+    map: [],
+    contact: [],
+    home: []
   },
 };
 
