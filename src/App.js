@@ -1,8 +1,8 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import HomePage from './pages/homepage/homepage.component'
-import AboutPage from './pages/about/about.component'
-import ProjectsPage from './pages/projects/projects.component'
+import HomePage from './navigation/homepage.component'
+import AboutPage from './navigation/about.component'
+import ProjectsPage from './navigation/projects.component'
 
 function App() {
   return (

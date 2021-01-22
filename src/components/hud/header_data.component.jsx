@@ -21,7 +21,7 @@ const HEADER_DATA = {
         image: linkedin,
       },
     ],
-    map: [],
+    projects: [],
     contact: [],
     home: []
   },
