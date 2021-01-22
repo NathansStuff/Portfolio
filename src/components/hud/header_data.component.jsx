@@ -1,6 +1,7 @@
 import github from '../../assets/github.png';
 import twitter from '../../assets/twitter.png';
-import linkedin from '../../assets/linkedin.jpg';
+import linkedin from '../../assets/linkedin.png';
+import facebook from '../../assets/facebook.png';
 
 const HEADER_DATA = {
   pages: {
@@ -20,10 +21,15 @@ const HEADER_DATA = {
         key: 3,
         image: linkedin,
       },
+      {
+        title: 'Facebook',
+        key: 4,
+        image: facebook,
+      },
     ],
     projects: [],
     contact: [],
-    home: []
+    home: [],
   },
 };
 

@@ -17,6 +17,15 @@ function AboutPage() {
           <p>28</p>
         </div>
       </div>
+      <div className='submenu-item'>
+        <div className='submenu-item-left'>
+          <p>Location</p>
+        </div>
+        <div className='submenu-item-right'>
+          <p>Sydney</p>
+        </div>
+      </div>
+
     </div>
   )
 }

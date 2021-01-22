@@ -10,8 +10,8 @@ function HubSubheaders(links) {
       <div className='sub-header-row'>
         {data.pages[page].map(item => (
           <div className='sub-header-item'>
-            <img src={item.image} alt={item.title} />
-            <p>{item.title}</p>
+            <img src={item.image} alt={item.title}  />
+            <p className='sub-header-title'>{item.title}</p>
           </div>
         ))}
       </div>
@@ -22,14 +22,3 @@ function HubSubheaders(links) {
 }
 
 export default HubSubheaders;
-
-/*
- <div className='custom-line'></div>
-        {data.pages[`${page}_data`].map(idx => (
-          <div className='submenu-item'>
-            <div className='submenu-item-left'>!!!{Object.keys(object[0])}</div>
-            <div className='submenu-item-right'>{Object.values(object[0])}</div>
-          </div>
-        ))}
-    </div>
-    */
