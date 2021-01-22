@@ -22,7 +22,7 @@ class HudClass extends React.Component {
           <div className='about-wrapper'>
             <div className='sub-headers'>
               <div className='sub-header-row'>
-                <HudSubheaderDirectory props={this.page}/>
+                <HudSubheaderDirectory props={this.page} />
               </div>
               <div className='custom-line'></div>
             </div>

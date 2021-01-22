@@ -1,9 +1,9 @@
 import React from 'react';
-import HEADER_DATA from './object.component'
+import HEADER_DATA from './header_data.component'
 
 
 function HubSubheaders(links) {
-  const page = links.props
+  const page = links.props ? links.props : 'home'
   const data = HEADER_DATA
   return (
     <div className='sub-header-row'>

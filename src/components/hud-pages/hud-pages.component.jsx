@@ -6,7 +6,7 @@ const HudPages = () => (
   <div className='hud-pages'>
     <Link to='/'>Home</Link>
     <Link to='/about'>About</Link>
-    <h4>Projects</h4>
+    <Link to='/projects'>Projects</Link>
     <h4>Contact</h4>
   </div>
 );

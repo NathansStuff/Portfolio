@@ -21,8 +21,22 @@ const HEADER_DATA = {
             image: linkedin,
           },
         ],
-        key: 1,
+        projects: [
+          {
+            title: 'Terminal',
+            key: 1,
+            image: twitter,
+          },
+        ],
+        home: [
+          {
+            title: 'HOME',
+            key: 1,
+            image: twitter,
+          },
+        ]
       },
+      
     };
 
 export default HEADER_DATA;
