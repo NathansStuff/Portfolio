@@ -15,7 +15,6 @@ function HubSubheaders(links) {
           </div>
         ))}
       </div>
-      <div className='custom-line'></div>
       <Page props={links} />
     </div>
   );

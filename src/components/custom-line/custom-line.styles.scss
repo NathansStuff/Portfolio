@@ -1,0 +1,11 @@
+.custom-line {
+    height: 0;
+}
+
+.custom-line:before {
+    width: 100%;
+    content: '';
+    border-bottom: 5px solid red;
+    position: absolute;
+    border-radius: 2px;
+}

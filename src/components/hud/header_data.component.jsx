@@ -36,6 +36,13 @@ const HEADER_DATA = {
     ],
     contact: [],
     home: [],
+    techstack: [
+      {
+        title: 'Facebook',
+        key: 4,
+        image: facebook,
+      },
+    ],
   },
 };
 

@@ -2,19 +2,6 @@ $about-width: 50%;
 $images: 50px;
 $hud-width: 50%;
 
-.custom-line {
-    height: 0;
-}
-
-.custom-line:after {
-    width: 100%;
-    content: '';
-    height: 20px;
-    border-bottom: 5px solid red;
-    position: absolute;
-    border-radius: 2px;
-}
-
 .sub-header-row {
     height: $images;
     display: flex;

@@ -8,9 +8,6 @@
     margin-top: 10px;
 }
 
-.submenu-item:nth-child(1) {
-    margin-top: 30px;
-}
 
 .submenu-item-left,
 .submenu-item-right {
@@ -36,6 +33,27 @@
 .submenu-righthand {
     padding: 10px;
     color: #fff;
-    margin-top: 100px;
 }
 
+.about-top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.about-top h3 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.about-top-header {
+    padding-top: 10px;
+}
+
+.link-decorator {
+    text-decoration: underline;
+}
+
+.about-bio {
+    margin-top: 10px;
+}
