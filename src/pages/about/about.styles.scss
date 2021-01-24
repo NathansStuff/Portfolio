@@ -8,7 +8,6 @@
     margin-top: 10px;
 }
 
-
 .submenu-item-left,
 .submenu-item-right {
     height: 20px;
@@ -42,7 +41,7 @@
 .about-top {
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 .about-top h3 {
     color: #fff;
@@ -60,4 +59,8 @@
 
 .about-bio {
     margin-top: 10px;
+}
+
+.about-h3 {
+    background: #000;
 }

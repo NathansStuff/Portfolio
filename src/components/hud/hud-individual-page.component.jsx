@@ -7,7 +7,7 @@ function Page(links) {
   if (page === 'about') {
       return AboutPage()
   } else {
-    return <p>h</p>;
+    return <p>not about</p>;
   }
 }
 

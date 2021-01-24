@@ -3,13 +3,14 @@ import CustomButton from '../../components/custom-button/custom-button.component
 import { Link } from 'react-router-dom';
 import PicsRow from '../../components/pics-row/pics-row.component'
 import CustomLine from '../../components/custom-line/custom-line.component';
+import BackgroundBox from '../../components/background-box/background-box.component'
 
 function AboutPage() {
   return (
-    <div>
+    <BackgroundBox>
       <CustomLine />
       <div className='about-top'>
-        <h3 className='about-top-header'>Who Am I?</h3>
+        <h3 className='about-top-header about-h3'>Who Am I?</h3>
 
         <div class='submenu-wraper'>
           <div class='submenu-lefthand'>
@@ -49,21 +50,22 @@ function AboutPage() {
               <Link className='link-decorator' to='/contact'>
                 here
               </Link>
-              .
+              
               <CustomButton className='custom-button about-bio' type='submit'>
                 Download Resume
               </CustomButton>
             </p>
           </div>
         </div>
-        <h3>Techstack</h3>
-        <p></p>
+        <h3 className='about-h3'>Techstack</h3>
+      
 
         <div className='about-bot'>
           <PicsRow props={'techstack'} />
         </div>
       </div>
-    </div>
+      
+    </BackgroundBox>
   );
 }
 
