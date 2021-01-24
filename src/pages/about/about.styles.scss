@@ -1,0 +1,41 @@
+.submenu-lefthand {
+    display: flex;
+    flex-direction: column;
+}
+.submenu-item {
+    display: flex;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.submenu-item:nth-child(1) {
+    margin-top: 30px;
+}
+
+.submenu-item-left,
+.submenu-item-right {
+    height: 20px;
+    width: 50%;
+    p {
+        color: #fff;
+        height: 20px;
+        margin: 0;
+    }
+}
+
+.submenu-wraper {
+    display: flex;
+    width: 100%;
+}
+
+.submenu-lefthand,
+.submenu-righthand {
+    width: 100%;
+}
+
+.submenu-righthand {
+    padding: 10px;
+    color: #fff;
+    margin-top: 100px;
+}
+

@@ -27,7 +27,13 @@ const HEADER_DATA = {
         image: facebook,
       },
     ],
-    projects: [],
+    projects: [
+      {
+        title: 'Cybele',
+        image: twitter,
+        key: 1
+      }
+    ],
     contact: [],
     home: [],
   },

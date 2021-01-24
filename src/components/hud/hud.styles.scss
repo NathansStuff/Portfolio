@@ -77,34 +77,3 @@ $hud-width: 50%;
 
 
 
-
-
-
-.submenu-wrapper {
-    display: flex;
-    flex-direction: column;
-}
-.submenu-item {
-    display: flex;
-    height: 20px;
-    margin-top: 10px;
-    width: 50%;
-}
-
-.submenu-item:nth-child(1) {
-    margin-top: 30px;
-}
-
-
-
-.submenu-item-left,
-.submenu-item-right {
-    height: 20px;
-    width: 50%;
-    p {
-        color: #fff;
-        height: 20px;
-        margin: 0;
-    }
-}
-
