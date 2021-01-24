@@ -1,7 +1,7 @@
 import './about.styles.scss';
 import CustomButton from '../../components/custom-button/custom-button.component';
 import { Link } from 'react-router-dom';
-import HudSubheaderDirectory from '../../components/hud/hud-subheaders.component';
+import PicsRow from '../../components/pics-row/pics-row.component'
 import CustomLine from '../../components/custom-line/custom-line.component';
 
 function AboutPage() {
@@ -60,7 +60,7 @@ function AboutPage() {
         <p></p>
 
         <div className='about-bot'>
-          <HudSubheaderDirectory props={'techstack'} />
+          <PicsRow props={'techstack'} />
         </div>
       </div>
     </div>

@@ -1,0 +1,31 @@
+$images: 50px;
+
+.sub-header-row {
+    height: $images;
+    display: flex;
+    margin-left: 10px;
+    background-color: transparent !important;
+    
+    img {
+        width: $images;
+        height: $images;
+        padding-right: 10px;
+        display: flex;
+    }
+}
+
+.sub-header-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.sub-header-item {
+    color: #fff;
+    height: 20px;
+    margin: 0 10px;
+    
+    p {
+        margin-top: 0;
+        height: 0;
+    }
+}

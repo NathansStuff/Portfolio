@@ -1,8 +1,9 @@
 import React from 'react';
-import HEADER_DATA from './header_data.component';
-import Page from './hud-individual-page.component';
+import HEADER_DATA from '../hud/header_data.component';
+import Page from '../hud/hud-individual-page.component';
+import './pics-row.styles.scss'
 
-function HubSubheaders(links) {
+function PicsRow(links) {
   const page = links.props ? links.props : 'home';
   const data = HEADER_DATA;
   return (
@@ -20,4 +21,4 @@ function HubSubheaders(links) {
   );
 }
 
-export default HubSubheaders;
+export default PicsRow;

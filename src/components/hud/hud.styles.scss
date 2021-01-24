@@ -1,23 +1,6 @@
 $about-width: 50%;
-$images: 50px;
 $hud-width: 50%;
 
-.sub-header-row {
-    height: $images;
-    display: flex;
-    margin-left: 10px;
-    
-    img {
-        width: $images;
-        height: $images;
-        padding-right: 10px;
-        display: flex;
-    }
-}
-
-.sub-header-title {
-    font-family: 'Open Sans Condensed', sans-serif;
-}
 
 .hud-wrapper {
     width: 100%;;
@@ -43,17 +26,6 @@ $hud-width: 50%;
 
 .avatar {
     width: 80%;
-}
-
-.sub-header-item {
-    color: #fff;
-    height: 20px;
-    margin: 0 10px;
-    
-    p {
-        margin-top: 0;
-        height: 0;
-    }
 }
 
 .sub-headers {
