@@ -3,6 +3,8 @@ $images: 50px;
 .sub-header-row {
     height: $images;
     display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
     margin: 10px;
     background: transparent !important;
     img {
@@ -13,20 +15,29 @@ $images: 50px;
         background: transparent !important;
 
     }
+    &.techstack {
+        height: 150px;
+    }
 }
 
 .sub-header-title {
     font-family: 'Open Sans Condensed', sans-serif;    
+    text-align: center;
 }
 
 .sub-header-item {
     color: #fff;
-    height: 20px;
-    margin: 0 10 5px 0px;
+    height: 70px;
+    margin: 0 20px 10px 20px;
     background: transparent !important;
-
     p {
         margin-top: 0;
         height: 0;
     }
+    &.about {
+        .sub-header-item:nth-child(1) {
+            margin-left: 40px;
+        }
+    }
 }
+

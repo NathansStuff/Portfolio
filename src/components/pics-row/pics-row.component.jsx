@@ -8,9 +8,9 @@ function PicsRow(links) {
   const data = HEADER_DATA;
   return (
     <div>
-      <div className='sub-header-row'>
+      <div className={`sub-header-row ${page}`}>
         {data.pages[page].map(item => (
-          <div className='sub-header-item'>
+          <div className='sub-header-item extra-height'>
             <img src={item.image} alt={item.title}  />
             <p className='sub-header-title'>{item.title}</p>
           </div>
