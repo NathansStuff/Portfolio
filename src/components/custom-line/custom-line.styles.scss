@@ -3,7 +3,7 @@
 }
 
 .custom-line:before {
-    width: 100%;
+    width: calc(100% - 40px);
     content: '';
     border-bottom: 5px solid red;
     position: absolute;

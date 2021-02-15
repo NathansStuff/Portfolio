@@ -51,10 +51,11 @@ function AboutPage() {
                 here
               </Link>
               
-              <CustomButton className='custom-button about-bio' type='submit'>
+              
+            </p>
+            <CustomButton className='custom-button about-bio' type='submit'>
                 Download Resume
               </CustomButton>
-            </p>
           </div>
         </div>
         <h3 className='about-h3'>Techstack</h3>
